@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- *
- *main - main is a function
- *
+ *main - main function
  * Return: 0 on success
  */
 int main(void)
