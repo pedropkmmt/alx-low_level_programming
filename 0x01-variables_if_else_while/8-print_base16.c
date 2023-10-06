@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - this is the main function
  * Return: always 0
  */
-include main(void)
+int main(void)
 {
 	int i;
 	char n;
