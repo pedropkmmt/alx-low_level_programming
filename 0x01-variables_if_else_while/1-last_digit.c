@@ -6,7 +6,6 @@
  * Return: number generated
  */
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -21,7 +20,7 @@ int main(void)
 	printf("Last digit of %d is %d and is greater than 5\n", n, s);
 	else if (s < 6 && s != 0)
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, s);
-	else 
+	else
 	printf("Last digit of %d is %d and is 0\n", n, s);
 	return (0);
 }
