@@ -3,7 +3,7 @@
 #include <ctype.h>
 /**
  *_islower - checks if c is lower
- *c: parameter to be checked
+ *@c: parameter to be checked
  *Return: always returns 0;
  */
 int _islower(int c)
