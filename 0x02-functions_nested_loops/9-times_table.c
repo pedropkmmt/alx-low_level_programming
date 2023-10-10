@@ -13,7 +13,7 @@ void times_table(void)
 		{
 			result = i * a;
 			if (a == 0)
-				printf("%d, " result);
+				printf("%d" , result);
 			else 
 			{
 				printf("%2d" , result);
