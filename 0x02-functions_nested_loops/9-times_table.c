@@ -12,13 +12,15 @@ void times_table(void)
 	for ( a = 0; a < 10; a++)
 	{
 	result = i * a;
-	if ( a == 0)
+	if (a == 0)
 		printf("%d", result);
-	else 
-		printf("%d", result);
-	if (a != 0)
-		printf(", ");
+	else
+	{
+		printf("%2d", result);
+		if (a != 0)
+			printf(", ");
 	}
-	}
-	printf('\n');
+}
+}
+printf('\n');
 }
