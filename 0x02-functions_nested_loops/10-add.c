@@ -1,10 +1,10 @@
 #include "main.h"
 #include <ctype.h>
 #include <stdio.h>
-int add(int i, int a)
+int add(int b, int b)
 {
 	int result;
-	result = i + a;
+	result = b + a;
 	printf("%d", result);
 	return (0);
 
