@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *int_islower - checks if c is lower
+ *_islower - checks if c is lower
+ *c: parameter to be checked
  *Return: always returns 0;
  */
 int _islower(int c)
