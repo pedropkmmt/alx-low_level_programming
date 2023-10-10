@@ -3,9 +3,7 @@
 #include <stdio.h>
 void times_table(void)
 {
-	int i;
-	int a;
-	int result;
+	int i, a ,result;
 	
 	for (i = 0; i < 10 ; i++)
 	{
@@ -13,7 +11,7 @@ void times_table(void)
 		{
 			result = i * a;
 			if (a == 0)
-				printf("%d" , result);
+				printf("%d, " , result);
 			else 
 			{
 				printf("%2d" , result);
