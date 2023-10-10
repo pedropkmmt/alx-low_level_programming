@@ -1,11 +1,11 @@
 #include "main.h"
 #include <ctype.h>
 #include <stdio.h>
-int add(int a, int b)
+int add(int, int)
 {
-	int result;
-	result = b + a;
-	printf("%d", result);
-	return (0);
+	   int n;
 
+	       n = add(89, 9);
+	           printf("%d\n", n);
+		       return (0);
 }
