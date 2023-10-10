@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 #include <stdio.h>
-int add(int b, int b)
+int add(int a, int b)
 {
 	int result;
 	result = b + a;
