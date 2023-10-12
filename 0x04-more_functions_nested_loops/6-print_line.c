@@ -4,7 +4,7 @@
  * @n: number of times character printed
  */
 void print_line(int n)
-i{
+{
 	if (n <= 0)
 	{
 		_putchar('\n');
