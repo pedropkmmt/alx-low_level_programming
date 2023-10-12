@@ -5,25 +5,26 @@
  */
 void print_triangle(int size)
 {
-	if (size <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		int i, j;
+	int hash, index;
 
-		for(i = 1; i <= size, i++)
+	if (size > 0)
+	{
+		for (hash = 1; hash <= size; hash++)
 		{
-			for (j = i; j < size; j++)
+			for (index = size - hash; index > 0; index--)
 			{
 				_putchar(' ');
 			}
-			for (j = 1; j <= i ;j++)
+			for (index = 0; index < hash; index++)
 			{
 				_putchar('#');
+			}
+			if (hash == size)
+			{
+				continue
 			}
 			_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
