@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - copy string
+ * _strncpy - copy string
  * @dest: value
  * @src: value
  * @n: value
