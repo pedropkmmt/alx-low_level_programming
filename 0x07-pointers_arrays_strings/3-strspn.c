@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _strspn - gets the length
  * @s: The string to be searched
  * @accept: to be measured
