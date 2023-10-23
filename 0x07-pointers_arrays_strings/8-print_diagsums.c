@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_digsums - prints the sum
+ * print_diagsums - prints the sum
  * @a: integers
  * @size: size
  */
