@@ -9,11 +9,13 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *output;
-	 output = calloc(nmemb, size);
+	char *i;
 
 	if (nmemb == 0 || size == 0)
-		return (NULL)
+		return (NULL);
+	 i= calloc(nmemb, size);
+	if (output == NULL)
+		return (NULL);
 	else
 		return (output);
 }
