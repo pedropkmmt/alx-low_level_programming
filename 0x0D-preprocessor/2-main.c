@@ -7,6 +7,6 @@
 
 int main(void)
 {
-    putchar("This program was compiled from %s\n", __FILE__);
+    printf("This program was compiled from %s\n", __FILE__);
     return 0;
 }
