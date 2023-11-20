@@ -3,7 +3,7 @@
 /**
  * get_nodeint_at_index - main function
  * @head: linked list
- * @index: index of the node 
+ * @index: index of the node
  * Return: node or NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
