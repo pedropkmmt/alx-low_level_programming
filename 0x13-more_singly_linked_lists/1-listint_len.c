@@ -2,7 +2,7 @@
 
 /**
  * listint_len - main function
- * @h: linked list 
+ * @h: linked list
  * Return: nodes
  */
 size_t listint_len(const listint_t *h)
