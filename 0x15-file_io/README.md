@@ -1,1 +1,2 @@
-file i o
+
+file i / 0
