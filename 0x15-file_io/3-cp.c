@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/stat.h>
@@ -10,6 +9,7 @@ void check_IO_stat(int stat, int fd, char *filename, char mode);
  * main - main function
  * @argc: arguemnt
  * @argv: arguemnt
+ * Return: 1 on success
  */
 int main(int argc, char *argv[])
 {
@@ -67,5 +67,4 @@ void check_IO_stat(int stat, int fd, char *filename, char mode)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
 		exit(99);
 	}
-
 }
