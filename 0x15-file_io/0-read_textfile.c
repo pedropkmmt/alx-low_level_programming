@@ -1,4 +1,9 @@
 #include "main.h"
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <stdlib.h>
+
 /**
  * read_textfile - main function
  * @filename: file to read
